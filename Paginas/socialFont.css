@@ -1,0 +1,38 @@
+@charset "UTF-8";
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        @font-face {
+            font-family:'Phone';
+            src: url(../Fonte/IDroid.otf);
+        }
+        ::-webkit-scrollbar {
+            width: 0px;
+            height: 0px;
+        }
+        img {
+            display: block;
+            width: 100vw;
+        }
+        h2 {
+            font: normal 1.5em 'Phone', sans-serif;
+            background-color: #426eaf;
+            color: white;
+            text-align: center;
+            padding: 10px;
+           }
+           h2:hover {
+            background-color:#6798e0;
+           }
+           h2:active {
+            background-color: #253f64;
+           }
+           a {
+            text-decoration: none;
+           }
+
+           body {
+            background-color: #ffffff;
+           }
+           

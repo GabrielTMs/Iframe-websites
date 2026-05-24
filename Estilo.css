@@ -1,0 +1,60 @@
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-image: url(imagens/fundo-madeira.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: black;
+}
+nav {
+    padding-top: 50px;
+    padding-right: 40px;
+    text-align: right;
+}
+nav > a > img {
+    border-radius: 50%;
+    width: 75px;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 6px #000000;
+    box-sizing: border-box;
+}
+nav img:hover {
+    border: 2px solid white;
+    transform: translate(-2px, -1px);
+    box-shadow: 4px 4px 9px black;
+    transition: transform 0.3s;
+    
+}
+nav img:active {
+    border: 2px solid rgb(212, 212, 97);
+}
+section {
+    position: relative;
+    height: 35vh; /*Pode usar padding-top no  
+                    lugar se quiser também.*/
+}
+main > section > img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+}
+
+iframe {
+    position: absolute;
+    top: -28.8%;
+    left: 50%;
+    height: 46.7vh;
+    width: 316px;
+    transform: translate(-50%, -50%);
+    background-color: black;
+    border: 0.05px solid rgba(0, 0, 0, 0.075);
+    border-radius: 2px;
+    
+}
